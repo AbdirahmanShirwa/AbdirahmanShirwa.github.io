@@ -12,7 +12,7 @@ p {
 }
 div {
   border-style: dotted;
-  2px;
+  border-widht: 2px;
   width: 100px;
   height: 100px;
 }

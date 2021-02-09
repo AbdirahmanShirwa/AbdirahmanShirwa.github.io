@@ -21,9 +21,8 @@ div {
     <li>B</li>
   
 </ol>
-<ul>
- <li>Square</li>
- <li>Square</li>
-</ul>
 
+ul {
+  list-style-type: square;
+}
   

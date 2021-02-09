@@ -17,7 +17,7 @@ div {
   height: 100px;
 }
 ol {
-  lista-style-type: upper-alpha;
+  list-style-type: upper-alpha;
 }
 
 ul {

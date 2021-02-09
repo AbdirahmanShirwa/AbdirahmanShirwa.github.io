@@ -16,11 +16,9 @@ div {
   width: 100px;
   height: 100px;
 }
-<ol outputclass="number-alpha">
-    <li>A</li>
-    <li>B</li>
-  
-</ol>
+ol {
+  lista-style-type: upper-alpha;
+}
 
 ul {
   list-style-type: square;

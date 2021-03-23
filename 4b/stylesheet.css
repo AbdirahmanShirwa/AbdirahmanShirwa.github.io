@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(8, 21, 41);
+     color: white;
+  }
+  h1 {
+    border: 5px solid grey;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+  }
+  p {
+ border-radius: 25px;
+  background: #197a86;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;
+  }    

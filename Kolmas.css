@@ -25,3 +25,10 @@ margin-right: auto;
 #topnav:hover {
   background-color: red;
 }
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+  }

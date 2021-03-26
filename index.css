@@ -1,0 +1,30 @@
+#header { 
+    background-color:black;
+    color:rgba(255, 255, 255, 0.274);
+    text-align:center;
+    padding:4px;
+ }
+ #nav {
+    line-height:20px;
+    background-color:#260a7246;
+    height:300px;
+    width:100px;
+    padding:5px;	      
+}
+#section {
+    width:450px;
+    padding:15px;	 	 
+}
+body {
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+footer {
+    width: 100%;
+    display: inline-block;
+    margin: 2em 0;
+    height: 70px;
+    background-color: #999;
+    }
+ 

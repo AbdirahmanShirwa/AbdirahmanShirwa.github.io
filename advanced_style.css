@@ -1,0 +1,35 @@
+#Boksi1{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+  }
+  h1,h2 {
+    color: rgb(73, 13, 122);
+    text-shadow: 2px 2px 4px #0f7265;
+  }
+  #Boksi2 {
+    border: 2px solid black;
+    padding: 45px;
+    background: url(cinqueterre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a:link {
+    color: Black;
+  }
+  a:hover {
+    color: red;
+    width: 10px;
+    height: 10px;
+    background: black;
+    transition-property: width;
+     transition-duration: 2s;
+    }
+    @media only screen and (max-width: 700px) {
+
+    
+        body {
+          background-color: black;
+          color: white;
+        } 
+    } 

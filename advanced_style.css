@@ -26,8 +26,9 @@
      transition-duration: 2s;
     }
    @media screen and (max-width: 700px) {
+}
 body {
 background-color: black;
     color: white;
 }
-}
+

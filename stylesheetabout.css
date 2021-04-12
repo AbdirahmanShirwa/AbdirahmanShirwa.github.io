@@ -65,6 +65,12 @@ body {
       width: 100%;
       display: block;
     }
+      .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
   }
   .navbar {
         margin-bottom: 0;
@@ -80,12 +86,5 @@ body {
         background-color: #f1f1f1;
         height: 100%;
       }
-@media screen and (max-width: 767px) {
-    .sidenav {
-      height: auto;
-      padding: 15px;
-    }
-    .row.content {height:auto;} 
-  }
 
       

@@ -1,95 +1,61 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheetcontact.css">
 
-* {
-  box-sizing: border-box;
-}
-
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-</style>
 </head>
 <body>
-
+ 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="https://abdirahmanshirwa.github.io/aboutusbootstrap.html">About</a></li>
+        <li><a href="https://abdirahmanshirwa.github.io/blogbootstrap.html">Blog</a></li>
+        <li><a href="https://abdirahmanshirwa.github.io/contactusbootstrap.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <div class="container">
   <div style="text-align:center">
     <h2>Contact Us</h2>
-    <p>Ota rohkeasti yhteyttä , mikäli jäi kysyttävää.</p>
-  </div>
+    <p>Contact us for Additional information</p>
+  </div> 
   <div class="row">
     <div class="column">
      
     </div>
     <div class="column">
       <form action="/action_page.php">
-        <label for="fname">Etunimi</label>
+        <label for="fname">First name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Sukunimi</label>
+        <label for="lname">Last name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="country">Maa</label>
+        <label for="country">Country</label>
         <select id="country" name="country">
-          <option value="australia">Suomi</option>
-          <option value="canada">Ruotsi</option>
-          <option value="usa">Venäjä</option>
+          <option value="australia">Englanti</option>
+          <option value="canada">Suomi</option>
+          <option value="usa">Ruotsi</option>
         </select>
-        <label for="subject">Viesti</label>
-        <textarea id="subject" name="subject" placeholder="Kirjoita tekstisi tähän kenttään.." style="height:170px"></textarea>
-        <input type="Submit" value="Lähetä">
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Type your message here.." style="height:170px"></textarea>
+        <input type="Submit" value="Send">
       </form>
     </div>
   </div>

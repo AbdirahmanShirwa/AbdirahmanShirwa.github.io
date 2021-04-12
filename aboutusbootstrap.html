@@ -1,83 +1,39 @@
-+<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheetabout.css">
 
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-</style>
 </head>
 <body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Logo</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="https://abdirahmanshirwa.github.io/aboutusbootstrap.html">About</a></li>
+          <li><a href="https://abdirahmanshirwa.github.io/blogbootstrap.html">Blog</a></li>
+          <li><a href="https://abdirahmanshirwa.github.io/contactusbootstrap.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <div class="about-section">
   <h1>About Us Page</h1>
-  <p>Make Professional Websites for Free Fast & Easy Free Website Builder! Social media compatible. Mobile optimized. Customizable online store. 100s of templates. Top industry hosting. 100s of Apps. SEO wizard. Custom domain name. Traffic generation tools.</p>
+  <p>We are integrated consulting team of designers, developers, and engineers that builds fresh experiences people love. Powered by our design-led innovation process we deliver end-to-end experiences to help businesses grow.  </p>
   
 </div>
 
@@ -87,9 +43,10 @@ html {
     <div class="card">
       
       <div class="container">
-        <h2> Mr.x</h2>
+      <img src="Ceo.jfif" alt="Ceo" width="100" height="100">
+        <h2> Jane Hamilton</h2>
         <p class="title">CEO & Founder</p>
-        <p>Some text </p>
+        <p>A chief executive officer (CEO) is the highest-ranking executive in a company, whose primary responsibilities include making major corporate decisions, managing the overall operations and resources of a company</p>
         <p>some@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
@@ -99,9 +56,10 @@ html {
   <div class="column">
     <div class="card">
       <div class="container">
-        <h2>Mr.x</h2>
+      <img src="Director.jfif" alt="Director" width="200" height="100">
+        <h2>Mike james</h2>
         <p class="title">Art Director</p>
-        <p>Some text .</p>
+        <p>Leading a team of artists, art directors will determine which artistic elements to use; articulate the vision to their team</p>
         <p>some@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
@@ -112,9 +70,10 @@ html {
     <div class="card">
       
       <div class="container">
-        <h2>Mr.x</h2>
+      <img src="Chairman.jfif" alt="Chairman" width="200" height="100">
+        <h2>Hanna Wilson</h2>
         <p class="title">Designer</p>
-        <p>Some text </p>
+        <p>plays a key role in a creative company. Using elements like typography, illustration, photography and layouts, a designer always has an extremely creative mind that can absorb visual trends and deploy them in fresh and exciting ways. </p>
         <p>some@example.com</p>
         <p><button class="button">Contact</button></p>
       </div>
